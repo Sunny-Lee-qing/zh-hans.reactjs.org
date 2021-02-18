@@ -256,6 +256,7 @@ function ExampleWithManyStates() {
   const [age, setAge] = useState(42);
   const [fruit, setFruit] = useState('banana');
   const [todos, setTodos] = useState([{ text: '学习 Hook' }]);
+}
 ```
 
 在以上组件中，我们有局部变量 `age`，`fruit` 和 `todos`，并且我们可以单独更新它们：
